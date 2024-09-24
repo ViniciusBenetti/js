@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SysControl</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sintony:wght@400;700&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body id="main-bg">
+    <header id="cabecalho">
+        <div>
+            <img src="background1.svg" alt="bg1" id="bg1">
+            <h1 id="titulo1" class="titulos">SysControl</h1>
+            <div id="conteudo1" class="conteudos" >Tecnologia na palma da sua mão</div>
+        </div>
+        <div>
+            <img src="background2.svg" alt="bg2" id="bg2">
+            <h1 id="titulo2" class="titulos">O futuro te aguarda</h1>
+            <div id="conteudo2" class="conteudos">Adentre-se as ferramentas mais recentes do mundo tecnológico</div>
+            <a href="logar.html" id="btncabecalho" ><button id="bb">dashboard</button></a>
+        </div>
+        <div>
+            <img src="background3.svg" alt="bg3" id="bg3">    
+            <h1 id="titulo3" class="titulos">Fale conosco</h1>
+            <div id="conteudo3" class="conteudos">Entre em contato por e-mail ou telefone</div>
+
+        </div>
+        
+        
+    </header>
+
+
+    <img src="button1.svg" alt="button1" id="button1">
+    <img src="button1.svg" alt="button2" id="button2">
+    <img src="button1.svg" alt="button3" id="button3">
+    <img src="arrow-left.svg" alt="arrow-left" id="arrow-left">
+    <img src="arrow-right.svg" alt="arrow-right" id="arrow-right">
+    <img src="logo.svg" alt="logo" id="logo">
+    <img src="hamburguer.svg" alt="hamburguer" class="hamburguer">
+    <img src="hamburguer.svg" alt="hamburgueractive" class="hamburguer-active">
+
+    <nav class="menu-hamburguer",class="menu-hamburguer-active", class="menu-hamburguer-deactive">
+        <a href="" id="inicio-action">Início</a>
+        <a href="logar.html" id="comecar-action">dashboard</a>
+        <a href="#sobre" id="sobre-action">Sobre nós</a>
+        <a href="#contato" id="contato-action">Contato</a>
+    </nav>
+
+    <section class="comecar">
+        <header>
+            <h2>
+                DASHBOARD
+            </h2>
+        </header>
+
+        <div>
+            <span>Começe a utilizar a nossa ferramenta agora mesmo!</span>
+            <a href="logar.html" id="cc"><button >dashboard</button></a>
+        </div>
+
+    </section>
+    <section class="recursos">
+        <header>
+            <h2>
+                RECURSOS <img src="recursos.svg" alt="recursos" id="recursosIcon">
+            </h2>
+        </header>
+
+        <div>
+            <ul>
+                <li><span>Réplica do datagrama na aplicação</span></li>
+                <li><span>Controle total do seu dispositivo</span></li>
+                <li><span>Informações sobre o seu dispositivo em tempo real</span></li>
+                <li><span>Dados armazenados com segurança na nuvem</span></li>
+                <li><span>Notificações via E-mail</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="como-funciona">
+        <header>
+            <h2>
+                COMO FUNCIONA?
+            </h2>
+        </header>
+
+        <div>
+           <ol>
+            <li>Faça Login ou cadastre-se apertando em <a href="logar.html" id="comecar-action-2">dashboard</a></li>
+            <li>Aperte em criar botão</li>
+            <li>Configure seu aparelho ioT como sugerido</li>
+            <li>Agora você já pode começar a controlar seu dispositivo</li>
+           </ol>
+        </div>
+    </section>
+    <section class="sobre">
+        <header>
+            <h2>
+                SOBRE NÓS <img src="sobre-nos.svg" alt="sobre-nos">
+            </h2>
+        </header>
+
+        <div >
+            <span>A empresa Vinix dev foi fundada com o objetivo de auxiliar no ensino de tecnologia da informação
+            e solucionar diversos problemas. Para isso, já foram criados diversos ebooks em T.I e softwares premium.
+            Somos responsáveis também pela criação de sites personalizados, automação de tarefas e análise de sistemas. 
+            <br><br><br>
+            E tudo isso só é possível graças a dedicação e carinho!
+            </span>
+        </div>
+    </section>
+
+    <section class="contato">
+        <header>
+            <h2>FALE CONOSCO <img src="contact-us.svg" alt="contact">
+
+            </h2>
+            
+        </header>
+
+        <div id="content">
+
+        <form id="nos-envie" action="https://formsubmit.co/empresavinix@gmail.com" method="post">
+            <header>
+                <h3>
+                    NOS ENVIE UMA MENSAGEM
+                </h3>
+            </header>
+            <div>
+            <input type="hidden" name="_captcha" value="false">
+            <label for="email" name="email" id="email-label">E-mail:  
+                <input type="email" name="email" id="email" required>
+                <input type="hidden" name="_next" value="https://vinixodin.com/SysControl/">
+            </label>
+            <label for="assunto" name="assunto" id="assunto-label">Assunto:  
+                <input type="text" name="_subject" id="assunto" required>
+            </label>
+            <label for="mensagem" name="mensagem" id="mensagem-label">Mensagem:  
+                <textarea name="message" id="mensagem" cols="30" rows="10" required>
+
+                </textarea>
+            </label>
+            </div>
+        <button type="submit">ENVIAR</button>
+        </form>
+        
+
+        <div id="contato-div">
+
+            <header>
+                <h3>
+                    CONTATO
+                </h3>
+            </header>
+            <div>
+                <span><img src="tel.svg" alt="tel"> TEL: (79)98138-8833</span>
+                <span><img src="email.svg" alt="tel"> E-MAIL: empresavinix@gmail.com</span>
+            </div>
+
+        </div>
+
+    </div>
+        
+
+    </section>
+    <footer>
+        <a href="politica-e-privacidade.html">politica e privacidade</a>
+        <a href="#sobre" class="sobre-footer">sobre nós</a>
+        <a href="#contato" class="contato-footer">contato</a>
+        <span>©2024 direitos reservados</span>
+    </footer>
+
+        <img src="gotop.svg" alt="gotop" class="ir-pro-topo">
+
+
+    <script>
+        var sobreFooter = document.querySelector(".sobre-footer")
+        var contatoFooter = document.querySelector(".contato-footer")
+        var sobreAction = document.getElementById("sobre-action")
+        var contatoAction = document.getElementById("contato-action")
+        var irTopo = document.querySelector('.ir-pro-topo')
+        var hamburguerIcon = document.querySelector('.hamburguer');
+        var hamburguerMenu = document.querySelector('.menu-hamburguer');
+        var hamburguerActive = document.querySelector('.hamburguer-active')
+        var arrowLeft = document.querySelector('#arrow-left')
+        var arrowRight = document.querySelector('#arrow-right')
+        var bg1 = document.getElementById('bg1')
+        var bg2 = document.getElementById('bg2')
+        var bg3 = document.getElementById('bg3')
+        var bg4 = document.getElementById('bg4')
+        var titulo1 = document.getElementById('titulo1')
+        var conteudo1 = document.getElementById('conteudo1')
+        var titulo2 = document.getElementById('titulo2')
+        var conteudo2 = document.getElementById('conteudo2')
+        var titulo3 = document.getElementById('titulo3')
+        var conteudo3 = document.getElementById('conteudo3')
+        var btncabecalho = document.getElementById('bb')
+        var button1 = document.getElementById('button1')
+        var button2 = document.getElementById('button2')
+        var button3 = document.getElementById('button3')
+        var listcheck = document.getElementById('checar')
+
+
+
+
+        irTopo.addEventListener("click",()=>{
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        })
+        contatoAction.addEventListener("click",()=>{
+            window.scrollTo({
+                top: 3160,
+                behavior: 'smooth'
+            });
+        })
+        sobreAction.addEventListener("click",()=>{
+            window.scrollTo({
+                top: 2160,
+                behavior: 'smooth'
+            });
+        })
+        sobreFooter.addEventListener("click",()=>{
+            window.scrollTo({
+                top: 2160,
+                behavior: 'smooth'
+            });
+        })
+        contatoFooter.addEventListener("click",()=>{
+            window.scrollTo({
+                top: 3160,
+                behavior: 'smooth'
+            });
+        })
+
+
+
+        
+    
+        hamburguerIcon.addEventListener("click", ()=>{
+
+            
+            if(!hamburguerMenu.classList.toggle('menu-hamburguer-deactive')){
+                hamburguerMenu.appendChild(hamburguerActive)
+                hamburguerIcon.style.visibility = 'hidden'
+                hamburguerActive.style.visibility = 'visible';
+                hamburguerMenu.classList.toggle('menu-hamburguer-active')
+            }else{
+                hamburguerMenu.classList.remove('menu-hamburguer-deactive')
+                hamburguerMenu.appendChild(hamburguerActive)
+                hamburguerIcon.style.visibility = 'hidden'
+                hamburguerActive.style.visibility = 'visible';
+                hamburguerMenu.classList.toggle('menu-hamburguer-active')
+                
+            }
+
+ 
+
+
+
+        })
+        hamburguerActive.addEventListener('click',()=>{
+
+                    
+            if(hamburguerMenu.classList.toggle('menu-hamburguer-active')){
+                hamburguerMenu.classList.remove('menu-hamburguer-active')
+                hamburguerIcon.style.visibility = 'visible'
+                hamburguerActive.style.visibility = 'hidden';
+                hamburguerMenu.classList.toggle('menu-hamburguer-active')
+            }else{
+                hamburguerIcon.style.visibility = 'visible'
+                hamburguerActive.style.visibility = 'hidden';
+                hamburguerMenu.classList.toggle('menu-hamburguer-deactive')
+            }
+        })
+
+        button1.addEventListener("click", ()=>{
+
+            bg1.style.transition = 'none'
+            bg2.style.transition = 'none'
+            bg3.style.transition = 'none'
+            titulo1.style.transition = 'none'
+            titulo2.style.transition = 'none'
+            titulo3.style.transition = 'none'
+            conteudo1.style.transition = 'none'
+            conteudo2.style.transition = 'none'
+            conteudo3.style.transition = 'none'
+            btncabecalho.style.transition =  'none'
+
+
+            if(bg1.style.visibility == 'visible'){
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                bg3.style.visibility = 'hidden'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                bg2.style.visibility = 'hidden'
+                titulo1.style.visibility = 'visible'
+                conteudo1.style.visibility = 'visible'
+                bg1.style.visibility = 'visible'
+                conteudo1.style.transform = 'translateX(0vw)'
+                bg1.style.transform = 'translateX(0vw)'
+                titulo1.style.transform = 'translateX(0vw)'
+
+
+            }else if(bg2.style.visibility == 'visible'){
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                bg3.style.visibility = 'hidden'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                bg2.style.visibility = 'hidden'
+                titulo1.style.visibility = 'visible'
+                conteudo1.style.visibility = 'visible'
+                bg1.style.visibility = 'visible'
+                conteudo1.style.transform = 'translateX(0vw)'
+                bg1.style.transform = 'translateX(0vw)'
+                titulo1.style.transform = 'translateX(0vw)'
+                bg2.style.transform = 'translateX(-100vw)'
+                conteudo2.style.transform = 'translateX(-100vw)'
+                titulo2.style.transform = 'translateX(-100vw)'
+                bg1.style.transform = 'translateX(0vw)'
+                conteudo1.style.transform = 'translateX(0vw)'
+                titulo1.style.transform = 'translateX(0vw)'
+                bg3.style.transform = 'translateX(100vw)'
+                conteudo3.style.transform = 'translateX(100vw)'
+                titulo3.style.transform = 'translateX(100vw)'
+                btncabecalho.style.transform = 'translateX(100vw)'
+                btncabecalho.style.visibility = 'hidden'
+
+
+
+            }else if(bg3.style.visibility == 'visible'){
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                bg3.style.visibility = 'hidden'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                bg2.style.visibility = 'hidden'
+                titulo1.style.visibility = 'visible'
+                conteudo1.style.visibility = 'visible'
+                bg1.style.visibility = 'visible'
+                conteudo1.style.transform = 'translateX(0vw)'
+                bg1.style.transform = 'translateX(0vw)'
+                titulo1.style.transform = 'translateX(0vw)'
+                bg2.style.transform = 'translateX(-100vw)'
+                conteudo2.style.transform = 'translateX(-100vw)'
+                titulo2.style.transform = 'translateX(-100vw)'
+                bg1.style.transform = 'translateX(0vw)'
+                conteudo1.style.transform = 'translateX(0vw)'
+                titulo1.style.transform = 'translateX(0vw)'
+                bg3.style.transform = 'translateX(100vw)'
+                conteudo3.style.transform = 'translateX(100vw)'
+                titulo3.style.transform = 'translateX(100vw)'
+                btncabecalho.style.transform = 'translateX(100vw)'
+                btncabecalho.style.visibility = 'hidden'
+
+
+            }
+        })
+        button2.addEventListener("click", ()=>{
+
+        bg1.style.transition = 'none'
+        bg2.style.transition = 'none'
+        bg3.style.transition = 'none'
+        titulo1.style.transition = 'none'
+        titulo2.style.transition = 'none'
+        titulo3.style.transition = 'none'
+        conteudo1.style.transition = 'none'
+        conteudo2.style.transition = 'none'
+        conteudo3.style.transition = 'none'
+        btncabecalho.style.transition =  'none'
+            if(bg1.style.visibility == 'visible'){
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                bg3.style.visibility = 'hidden'
+                titulo2.style.visibility = 'visible'
+                conteudo2.style.visibility = 'visible'
+                bg2.style.visibility = 'visible'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                bg1.style.visibility = 'hidden'
+                conteudo2.style.transform = 'translateX(0vw)'
+                bg2.style.transform = 'translateX(0vw)'
+                titulo2.style.transform = 'translateX(0vw)'
+                btncabecalho.style.visibility = 'visible'
+                btncabecalho.style.transform = 'translateX(0vw)'
+
+
+            }else if(bg2.style.visibility == 'visible'){
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                bg3.style.visibility = 'hidden'
+                titulo2.style.visibility = 'visible'
+                conteudo2.style.visibility = 'visible'
+                bg2.style.visibility = 'visible'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                bg1.style.visibility = 'hidden'
+                conteudo1.style.transform = 'translateX(-100vw)'
+                bg1.style.transform = 'translateX(-100vw)'
+                titulo1.style.transform = 'translateX(-100vw)'
+                bg2.style.transform = 'translateX(0vw)'
+                conteudo2.style.transform = 'translateX(0vw)'
+                titulo2.style.transform = 'translateX(0vw)'
+                bg3.style.transform = 'translateX(100vw)'
+                conteudo3.style.transform = 'translateX(100vw)'
+                titulo3.style.transform = 'translateX(100vw)'
+                btncabecalho.style.transform = 'translateX(0vw)'
+                btncabecalho.style.visibility = 'visible'
+
+
+
+            }else if(bg3.style.visibility == 'visible'){
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                bg3.style.visibility = 'hidden'
+                titulo2.style.visibility = 'visible'
+                conteudo2.style.visibility = 'visible'
+                bg2.style.visibility = 'visible'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                bg1.style.visibility = 'hidden'
+                conteudo1.style.transform = 'translateX(-100vw)'
+                bg1.style.transform = 'translateX(-100vw)'
+                titulo1.style.transform = 'translateX(-100vw)'
+                bg2.style.transform = 'translateX(0vw)'
+                conteudo2.style.transform = 'translateX(0vw)'
+                titulo2.style.transform = 'translateX(0vw)'
+                bg3.style.transform = 'translateX(100vw)'
+                conteudo3.style.transform = 'translateX(100vw)'
+                titulo3.style.transform = 'translateX(100vw)'
+                btncabecalho.style.transform = 'translateX(0vw)'
+                btncabecalho.style.visibility = 'visible'
+
+
+            }
+        })
+        button3.addEventListener("click", ()=>{
+
+        bg1.style.transition = 'none'
+        bg2.style.transition = 'none'
+        bg3.style.transition = 'none'
+        titulo1.style.transition = 'none'
+        titulo2.style.transition = 'none'
+        titulo3.style.transition = 'none'
+        conteudo1.style.transition = 'none'
+        conteudo2.style.transition = 'none'
+        conteudo3.style.transition = 'none'
+        btncabecalho.style.transition =  'none'
+            if(bg1.style.visibility == 'visible'){
+                titulo3.style.visibility = 'visible'
+                conteudo3.style.visibility = 'visible'
+                bg3.style.visibility = 'visible'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                bg2.style.visibility = 'hidden'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                bg1.style.visibility = 'hidden'
+                conteudo3.style.transform = 'translateX(0vw)'
+                bg3.style.transform = 'translateX(0vw)'
+                titulo3.style.transform = 'translateX(0vw)'
+
+
+            }else if(bg2.style.visibility == 'visible'){
+                titulo3.style.visibility = 'visible'
+                conteudo3.style.visibility = 'visible'
+                bg3.style.visibility = 'visible'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                bg2.style.visibility = 'hidden'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                bg1.style.visibility = 'hidden'
+                conteudo1.style.transform = 'translateX(-100vw)'
+                bg1.style.transform = 'translateX(-100vw)'
+                titulo1.style.transform = 'translateX(-100vw)'
+                bg2.style.transform = 'translateX(100vw)'
+                conteudo2.style.transform = 'translateX(100vw)'
+                titulo2.style.transform = 'translateX(100vw)'
+                bg1.style.transform = 'translateX(-100vw)'
+                conteudo1.style.transform = 'translateX(-100vw)'
+                titulo1.style.transform = 'translateX(-100vw)'
+                bg3.style.transform = 'translateX(0vw)'
+                conteudo3.style.transform = 'translateX(0vw)'
+                titulo3.style.transform = 'translateX(0vw)'
+                btncabecalho.style.transform = 'translateX(100vw)'
+                btncabecalho.style.visibility = 'hidden'
+
+
+
+            }else if(bg3.style.visibility == 'visible'){
+                titulo3.style.visibility = 'visible'
+                conteudo3.style.visibility = 'visible'
+                bg3.style.visibility = 'visible'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                bg2.style.visibility = 'hidden'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                bg1.style.visibility = 'hidden'
+                conteudo1.style.transform = 'translateX(-100vw)'
+                bg1.style.transform = 'translateX(-100vw)'
+                titulo1.style.transform = 'translateX(-100vw)'
+                bg2.style.transform = 'translateX(100vw)'
+                conteudo2.style.transform = 'translateX(100vw)'
+                titulo2.style.transform = 'translateX(100vw)'
+                bg1.style.transform = 'translateX(-100vw)'
+                conteudo1.style.transform = 'translateX(-100vw)'
+                titulo1.style.transform = 'translateX(-100vw)'
+                bg3.style.transform = 'translateX(0vw)'
+                conteudo3.style.transform = 'translateX(0vw)'
+                titulo3.style.transform = 'translateX(0vw)'
+                btncabecalho.style.transform = 'translateX(100vw)'
+                btncabecalho.style.visibility = 'hidden'
+
+
+            }
+        })
+
+        arrowRight.addEventListener('click', ()=>{
+
+            
+        bg1.style.transition = 'all 0.9s'
+        bg2.style.transition = 'all 0.9s'
+        bg3.style.transition = 'all 0.9s'
+        titulo1.style.transition = 'all 0.9s'
+        titulo2.style.transition = 'all 0.9s'
+        titulo3.style.transition = 'all 0.9s'
+        conteudo1.style.transition = 'all 0.9s'
+        conteudo2.style.transition = 'all 0.9s'
+        conteudo3.style.transition = 'all 0.9s'
+
+            if(bg1.style.visibility == 'visible'){
+
+                bg1.style.transform = 'translateX(-100vw)'
+                bg3.style.transform = 'translateX(0vw)'
+                titulo3.style.transform = 'translateX(0vw)'
+                conteudo3.style.transform = 'translateX(0vw)'
+                btncabecalho.style.transform = 'translateX(100vw)'
+                conteudo1.style.transform = 'translateX(-100vw)'
+                bg1.style.visibility = 'hidden'
+                bg3.style.visibility = 'visible'
+                bg2.style.transform = 'translateX(100vw)'
+                titulo2.style.transform = 'translateX(100vw)'
+                conteudo2.style.transform = 'translateX(100vw)'
+                titulo3.style.visibility = 'visible'
+                conteudo3.style.visibility = 'visible'
+                btncabecalho.style.visibility = 'hidden'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                bg2.style.visibility = 'hidden'
+
+            }else if(bg2.style.visibility == 'visible'){
+
+                bg2.style.transform = 'translateX(-100vw)'
+                bg1.style.transform = 'translateX(0vw)'
+                titulo1.style.transform = 'translateX(0vw)'
+                conteudo1.style.transform = 'translateX(0vw)'
+                bg2.style.visibility = 'hidden'
+                bg1.style.visibility = 'visible'
+                bg3.style.transform = 'translateX(100vw)'
+                titulo1.style.visibility = 'visible'
+                titulo3.style.transform = 'translateX(100vw)'
+                conteudo3.style.transform = 'translateX(100vw)'
+                btncabecalho.style.transform = 'translateX(-100vw)'
+                conteudo1.style.visibility = 'visible'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                btncabecalho.style.visibility = 'hidden'
+                bg3.style.visibility = 'hidden'
+
+            }else{
+
+                bg3.style.transform = 'translateX(-100vw)'
+                titulo3.style.transform = 'translateX(-100vw)'
+                conteudo3.style.transform = 'translateX(-100vw)'
+                btncabecalho.style.transform = 'translateX(0vw)'
+                bg2.style.transform = 'translateX(0vw)'
+                titulo2.style.transform = 'translateX(0vw)'
+                conteudo2.style.transform = 'translateX(0vw)'
+                bg1.style.transform = 'translateX(100vw)'
+                bg3.style.visibility = 'hidden'
+                bg2.style.visibility = 'visible'
+                titulo2.style.visibility = 'visible'
+                titulo1.style.transform = 'translateX(100vw)'
+                conteudo1.style.transform = 'translateX(100vw)'
+                btncabecalho.style.visibility = 'visible'
+                conteudo2.style.visibility = 'visible'
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                bg1.style.visibility = 'hidden'
+
+
+            }
+
+        })
+        arrowLeft.addEventListener('click', ()=>{
+
+        bg1.style.transition = 'all 0.9s'
+        bg2.style.transition = 'all 0.9s'
+        bg3.style.transition = 'all 0.9s'
+        titulo1.style.transition = 'all 0.9s'
+        titulo2.style.transition = 'all 0.9s'
+        titulo3.style.transition = 'all 0.9s'
+        conteudo1.style.transition = 'all 0.9s'
+        conteudo2.style.transition = 'all 0.9s'
+        conteudo3.style.transition = 'all 0.9s'
+
+        if(bg1.style.visibility == 'visible'){
+
+        bg1.style.transform = 'translateX(100vw)'
+        bg3.style.transform = 'translateX(-100vw)'
+        titulo3.style.transform = 'translateX(-100vw)'
+        conteudo3.style.transform = 'translateX(-100vw)'
+        btncabecalho.style.transform = 'translateX(0vw)'
+        conteudo1.style.transform = 'translateX(100vw)'
+        bg1.style.visibility = 'hidden'
+        bg2.style.visibility = 'visible'
+        bg2.style.transform = 'translateX(0vw)'
+        titulo2.style.transform = 'translateX(0vw)'
+        conteudo2.style.transform = 'translateX(0vw)'
+        titulo3.style.visibility = 'hidden'
+        conteudo3.style.visibility = 'hidden'
+        btncabecalho.style.visibility = 'visible'
+        titulo1.style.visibility = 'hidden'
+        conteudo1.style.visibility = 'hidden'
+        titulo2.style.visibility = 'visible'
+        conteudo2.style.visibility = 'visible'
+        bg2.style.visibility = 'visible'
+
+    }else if(bg2.style.visibility == 'visible'){
+
+        bg2.style.transform = 'translateX(100vw)'
+        bg1.style.transform = 'translateX(-100vw)'
+        titulo1.style.transform = 'translateX(-100vw)'
+        conteudo1.style.transform = 'translateX(-100vw)'
+        bg2.style.visibility = 'hidden'
+        bg1.style.visibility = 'hidden'
+        bg3.style.transform = 'translateX(0vw)'
+        titulo1.style.visibility = 'hidden'
+        titulo3.style.transform = 'translateX(0vw)'
+        conteudo3.style.transform = 'translateX(0vw)'
+        btncabecalho.style.transform = 'translateX(100vw)'
+        conteudo1.style.visibility = 'hidden'
+        titulo2.style.visibility = 'hidden'
+        conteudo2.style.visibility = 'hidden'
+        titulo3.style.visibility = 'visible'
+        conteudo3.style.visibility = 'visible'
+        btncabecalho.style.visibility = 'hidden'
+        bg3.style.visibility = 'visible'
+
+    }else{
+
+        bg3.style.transform = 'translateX(100vw)'
+        titulo3.style.transform = 'translateX(100vw)'
+        conteudo3.style.transform = 'translateX(100vw)'
+        btncabecalho.style.transform = 'translateX(-100vw)'
+        bg2.style.transform = 'translateX(-100vw)'
+        titulo2.style.transform = 'translateX(-100vw)'
+        conteudo2.style.transform = 'translateX(-100vw)'
+        bg1.style.transform = 'translateX(0vw)'
+        bg3.style.visibility = 'hidden'
+        bg2.style.visibility = 'hidden'
+        titulo2.style.visibility = 'hidden'
+        titulo1.style.transform = 'translateX(0vw)'
+        conteudo1.style.transform = 'translateX(0vw)'
+        btncabecalho.style.visibility = 'hidden'
+        conteudo2.style.visibility = 'hidden'
+        titulo3.style.visibility = 'hidden'
+        conteudo3.style.visibility = 'hidden'
+        titulo1.style.visibility = 'visible'
+        conteudo1.style.visibility = 'visible'
+        bg1.style.visibility = 'visible'
+
+    }
+    })
+
+
+    setInterval(()=>{
+        bg1.style.transition = 'all 0.9s'
+        bg2.style.transition = 'all 0.9s'
+        bg3.style.transition = 'all 0.9s'
+        titulo1.style.transition = 'all 0.9s'
+        titulo2.style.transition = 'all 0.9s'
+        titulo3.style.transition = 'all 0.9s'
+        conteudo1.style.transition = 'all 0.9s'
+        conteudo2.style.transition = 'all 0.9s'
+        conteudo3.style.transition = 'all 0.9s'
+
+            if(bg1.style.visibility == 'visible'){
+
+                bg1.style.transform = 'translateX(-100vw)'
+                bg3.style.transform = 'translateX(0vw)'
+                titulo3.style.transform = 'translateX(0vw)'
+                conteudo3.style.transform = 'translateX(0vw)'
+                btncabecalho.style.transform = 'translateX(100vw)'
+                conteudo1.style.transform = 'translateX(-100vw)'
+                bg1.style.visibility = 'hidden'
+                bg3.style.visibility = 'visible'
+                bg2.style.transform = 'translateX(100vw)'
+                titulo2.style.transform = 'translateX(100vw)'
+                conteudo2.style.transform = 'translateX(100vw)'
+                titulo3.style.visibility = 'visible'
+                conteudo3.style.visibility = 'visible'
+                btncabecalho.style.visibility = 'hidden'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                bg2.style.visibility = 'hidden'
+
+            }else if(bg2.style.visibility == 'visible'){
+
+                bg2.style.transform = 'translateX(-100vw)'
+                bg1.style.transform = 'translateX(0vw)'
+                titulo1.style.transform = 'translateX(0vw)'
+                conteudo1.style.transform = 'translateX(0vw)'
+                bg2.style.visibility = 'hidden'
+                bg1.style.visibility = 'visible'
+                bg3.style.transform = 'translateX(100vw)'
+                titulo1.style.visibility = 'visible'
+                titulo3.style.transform = 'translateX(100vw)'
+                conteudo3.style.transform = 'translateX(100vw)'
+                btncabecalho.style.transform = 'translateX(-100vw)'
+                conteudo1.style.visibility = 'visible'
+                titulo2.style.visibility = 'hidden'
+                conteudo2.style.visibility = 'hidden'
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                btncabecalho.style.visibility = 'hidden'
+                bg3.style.visibility = 'hidden'
+
+            }else{
+
+                bg3.style.transform = 'translateX(-100vw)'
+                titulo3.style.transform = 'translateX(-100vw)'
+                conteudo3.style.transform = 'translateX(-100vw)'
+                btncabecalho.style.transform = 'translateX(0vw)'
+                bg2.style.transform = 'translateX(0vw)'
+                titulo2.style.transform = 'translateX(0vw)'
+                conteudo2.style.transform = 'translateX(0vw)'
+                bg1.style.transform = 'translateX(100vw)'
+                bg3.style.visibility = 'hidden'
+                bg2.style.visibility = 'visible'
+                titulo2.style.visibility = 'visible'
+                titulo1.style.transform = 'translateX(100vw)'
+                conteudo1.style.transform = 'translateX(100vw)'
+                btncabecalho.style.visibility = 'visible'
+                conteudo2.style.visibility = 'visible'
+                titulo3.style.visibility = 'hidden'
+                conteudo3.style.visibility = 'hidden'
+                titulo1.style.visibility = 'hidden'
+                conteudo1.style.visibility = 'hidden'
+                bg1.style.visibility = 'hidden'
+
+
+            }
+
+
+    },5000)
+    
+
+        
+    </script>
+    <script src="node.js"></script>
+   
+</body>
+</html>
